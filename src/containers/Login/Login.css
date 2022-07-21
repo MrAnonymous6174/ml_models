@@ -1,0 +1,63 @@
+.main-container {
+  /* border: 12px solid rgb(170, 23, 23); */
+  box-shadow: 2px 5px 17px 6px #1e42f3b3;
+  height: 600px;
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-profile-animation {
+  height: 100px;
+  margin-top: -50px;
+  margin-bottom: 30px;
+}
+.bottom-img-urls {
+  width: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+}
+.product-select {
+  width: 50%;
+  margin-bottom: 20px !important;
+}
+.product-select .MuiFormLabel-root {
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+.product-select .MuiFormLabel-root.Mui-focused {
+  color: #027377;
+}
+.product-select .MuiInputBase-root {
+  margin-top: 20px;
+}
+.product-select .MuiSelect-root em {
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.5);
+  font-style: normal;
+}
+.product-select .MuiInput-underline:before {
+  border-bottom: 1px solid #000000;
+}
+.product-select .MuiInput-underline:after {
+  border-bottom: 2px solid #027377;
+}
+.product-select .required::after {
+  content: "*";
+  color: red;
+}
+.MuiSelect-select.MuiSelect-select {
+  padding-right: 24px;
+  text-align: left;
+}
+.product-select .required {
+  font-weight: 600;
+  font-size: 20px;
+}
+.login-submit {
+  width: 50%;
+}

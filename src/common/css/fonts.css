@@ -1,0 +1,87 @@
+/* Font Size */
+.u-fs-8 {
+  font-size: var(--px-8);
+}
+.u-fs-10 {
+  font-size: var(--px-10);
+}
+.u-fs-12 {
+  font-size: var(--px-12);
+}
+.u-fs-14 {
+  font-size: var(--px-14);
+}
+.u-fs-16 {
+  font-size: var(--px-16);
+}
+.u-fs-20 {
+  font-size: var(--px-20);
+}
+.u-fs-24 {
+  font-size: var(--px-24);
+}
+.u-fs-32 {
+  font-size: var(--px-32);
+}
+
+/* Font Family */
+.u-ff-dm {
+  font-family: "DM Sans", sans-serif;
+}
+.u-ff-b {
+  font-family: "Festive", "Barlow", sans-serif;
+}
+
+/* Font Weight */
+.u-fw-400 {
+  font-weight: 400;
+}
+.u-fw-500 {
+  font-weight: 500;
+}
+.u-fw-600 {
+  font-weight: 600;
+}
+.u-fw-700 {
+  font-weight: 700;
+}
+.u-fw-900 {
+  font-weight: 900;
+}
+
+/* Line Height */
+.u-lh-1 {
+  line-height: 1;
+}
+.u-lh-1-2 {
+  line-height: 1.2;
+}
+.u-lh-1-25 {
+  line-height: 1.25;
+}
+.u-lh-1-3 {
+  line-height: 1.3;
+}
+.u-lh-1-33 {
+  line-height: 1.334;
+}
+.u-lh-1-4 {
+  line-height: 1.4;
+}
+.u-lh-1-5 {
+  line-height: 1.5;
+}
+.u-lh-1-6 {
+  line-height: 1.6;
+}
+/* Letter Spacing */
+.u-ls-n {
+  letter-spacing: normal;
+}
+.u-ls-0-5 {
+  letter-spacing: 0.5px;
+}
+
+.u-ff-tail {
+  font-family: "Thailandesa";
+}

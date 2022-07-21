@@ -1,0 +1,18 @@
+.brand-logo {
+  color: #7367f0;
+  padding-left: 1rem;
+  margin-bottom: 0;
+  font-weight: 600;
+  letter-spacing: 0.01rem;
+  font-size: 1.45rem;
+}
+.apps-and-pages {
+  color: #a6a4b0;
+  padding: 0;
+  line-height: 1.5;
+  letter-spacing: 0.01rem;
+  font-size: 12px;
+}
+.breadcrum-section {
+  height: 50px;
+}

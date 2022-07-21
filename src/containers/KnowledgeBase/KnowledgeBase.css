@@ -1,0 +1,9 @@
+.knowledge-base-cover {
+  background-size: cover;
+  background-color: #e7dff8 !important;
+  background-image: url("https://pixinvent.com/demo/vuexy-angular-admin-dashboard-template/demo-1/assets/images/banner/banner.png");
+  padding: 8rem;
+}
+::placeholder {
+  margin-left: 8px;
+}

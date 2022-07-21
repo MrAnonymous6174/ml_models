@@ -1,0 +1,137 @@
+:root {
+  --alto: #e0e0e0;
+  --apple: #33a133;
+  --armadillo: #36322b;
+  --armadillo-24: rgba(54, 50, 43, 0.24);
+  --birch: #312f1e;
+  --black: #000000;
+  --black-06: rgba(0, 0, 0, 0.06);
+  --black-12: rgba(0, 0, 0, 0.12);
+  --black-16: rgba(0, 0, 0, 0.16);
+  --black-20: rgba(0, 0, 0, 0.2);
+  --black-24: rgba(0, 0, 0, 0.24);
+  --black-36: rgba(0, 0, 0, 0.36);
+  --black-50: rgba(0, 0, 0, 0.5);
+  --black-70: rgba(0, 0, 0, 0.7);
+  --black-rock: #0c0428;
+  --bleach-white: #feecd6;
+  --blue: #0000ff;
+  --bourbon: #c2751a;
+  --bunker: #0e1317;
+  --burnt-sienna: #ee5757;
+  --buttercup: #f5a622;
+  --cardinal: #cd2323;
+  --chocolate: #330402;
+  --cod-gray: #141414;
+  --coral-red: #ff4141;
+  --corn: #e8b900;
+  --crimson: #dc1414;
+  --crown-of-thorns: #79202f;
+  --dell: #2b6e1a;
+  --dove-gray: #626262;
+  --ebony-clay: #212b37;
+  --ecstasy: #fc8517;
+  --eucalyptus: #20924a;
+  --fire-bush: #e7a72c;
+  --forest-green: #1a8421;
+  --fuel-yellow: #eaac2e;
+  --gallery: rgba(237, 237, 237, 0.08);
+  --galliano-10: rgba(233, 188, 12, 0.1);
+  --golden-tainoi: #ffc64e;
+  --gray: #808080;
+  --green: #02ba02;
+  --green-pea: #184d37;
+  --guardsman-red: #b80d00;
+  --honey-flower: #5d2079;
+  --iron: #d1d2d2;
+  --jacarta: #2b2f6d;
+  --jacko-bean: #211103;
+  --japanese-laurel: #008000;
+  --kumera: #846424;
+  --la-palma: #318d17;
+  --lightning-yellow-10: rgba(249, 189, 37, 0.1);
+  --lotus: rgb(118, 50, 56);
+  --mahogany: #5d0607;
+  --malachite: #15c411;
+  --marigold: #bc8b2c;
+  --maroon: #800a02;
+  --mercury: #e3e3e3;
+  --metallic-bronze: #433b17;
+  --metallic-bronze-09: rgba(67, 59, 23, 0.09);
+  --meteor: #dc7414;
+  --meteor-30: rgba(220, 116, 20, 0.3);
+  --milano-red: #d61505;
+  --mine-shaft: #3d3d3d;
+  --monza: #d00036;
+  --oslo-gray: #86898b;
+  --outer-space: #33373b;
+  --piper: rgb(189, 100, 35);
+  --pirate-gold: #ba8602;
+  --pizazz: #ff9500;
+  --porcelain: #ebeef0;
+  --pumpkin-skin: #c6660d;
+  --punch: #df422d;
+  --rangitoto: #2a2820;
+  --red: #ff0000;
+  --rose-white: #fffafa;
+  --saffron: #fabe33;
+  --salem: #0e9333;
+  --sea-buckthorn: #f9a033;
+  --sea-buckthorn-10: rgba(249, 160, 51, 0.1);
+  --sepia-black: #280304;
+  --sepia-black-40: rgba(40, 3, 4, 0.4);
+  --shark: #1f2327;
+  --shark-light: #292d31;
+  --silver: #b9b9b9;
+  --silver-light: #c4c4c4;
+  --silver-10: rgba(196, 196, 196, 0.1);
+  --storm-gray: #717789;
+  --sun-10: rgba(252, 175, 26, 0.1);
+  --sunglow: #fbbf32;
+  --supernova: #fac700;
+  --tahiti-gold: #e48b05;
+  --tahiti-gold-24: rgba(228, 139, 5, 0.24);
+  --tamarillo: #9e0d0e;
+  --temptress: #2d0100;
+  --thunderbird: rgb(182, 20, 20);
+  --totem-pole-50: rgba(164, 12, 5, 0.5);
+  --totem-pole-2-50: rgba(150, 12, 8, 0.5);
+  --tulip-tree: #e89d3d;
+  --tuna: #34373b;
+  --vida-loca: rgb(64, 170, 27);
+  --white: #ffffff;
+  --white-05: rgba(255, 255, 255, 0.05);
+  --white-10: rgba(255, 255, 255, 0.1);
+  --white-12: rgba(255, 255, 255, 0.12);
+  --white-20: rgba(255, 255, 255, 0.2);
+  --white-50: rgba(255, 255, 255, 0.5);
+  --white-80: rgba(255, 255, 255, 0.8);
+  --wild-sand: #f5f5f5;
+  --wine-berry: #4d183a;
+  --wisteria: #a761ad;
+  --woodsmoke: #181c20;
+  --yellow-orange: #f9a440;
+}
+/* Color */
+.u-c-w {
+  color: var(--white);
+}
+.u-c-b {
+  color: var(--black);
+}
+/* Background Color */
+.u-bg-w {
+  background: var(--white);
+}
+.u-bg-b {
+  background: var(--black);
+}
+.u-bg-w-05 {
+  background: var(--white-05);
+}
+.u-bg-bunker {
+  background: var(--bunker);
+}
+.u-bg-woodsmoke {
+  background: var(--woodsmoke);
+}

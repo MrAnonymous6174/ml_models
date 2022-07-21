@@ -1,0 +1,111 @@
+/* Responsive font classes */
+
+/* <<<<< Usage >>>>>
+implicit usage: .u-fs-r-16 will apply font-size: 1.125rem on md and font-size: 1.25rem on lg
+explicit usage: .u-fs-lg-18 will apply font-size: 1.125rem on lg explicitly
+
+Note: .u-fs-r-{x} is equivalent to .u-fs-{x} .u-fs-md-{x+2} .u-fs-lg-{x+4} 
+
+Priority: Explicit classes have greater priority
+*/
+
+.u-fs-r-8 {
+  font-size: var(--px-8);
+}
+.u-fs-r-10 {
+  font-size: var(--px-10);
+}
+.u-fs-r-12 {
+  font-size: var(--px-12);
+}
+.u-fs-r-14 {
+  font-size: var(--px-14);
+}
+.u-fs-r-16 {
+  font-size: var(--px-16);
+}
+.u-fs-r-20 {
+  font-size: var(--px-20);
+}
+.u-fs-r-24 {
+  font-size: var(--px-24);
+}
+
+/* sm classes [≥ 568px] */
+@media screen and (min-width: 568px) {
+}
+
+/* md classes [≥ 768px] */
+@media screen and (min-width: 768px) {
+  .u-fs-r-8 {
+    font-size: var(--px-10);
+  }
+  .u-fs-r-10 {
+    font-size: var(--px-12);
+  }
+  .u-fs-r-12 {
+    font-size: var(--px-14);
+  }
+  .u-fs-r-14 {
+    font-size: var(--px-16);
+  }
+  .u-fs-r-16 {
+    font-size: var(--px-18);
+  }
+  .u-fs-r-20 {
+    font-size: var(--px-22);
+  }
+  .u-fs-r-24 {
+    font-size: var(--px-26);
+  }
+  .u-fs-md-16 {
+    font-size: var(--px-16);
+  }
+  .u-fs-md-18 {
+    font-size: var(--px-18);
+  }
+  .u-fs-md-20 {
+    font-size: var(--px-20);
+  }
+}
+
+/* lg classes [≥ 1024px] */
+@media screen and (min-width: 1024px) {
+  .u-fs-r-8 {
+    font-size: var(--px-12);
+  }
+  .u-fs-r-10 {
+    font-size: var(--px-14);
+  }
+  .u-fs-r-12 {
+    font-size: var(--px-16);
+  }
+  .u-fs-r-14 {
+    font-size: var(--px-18);
+  }
+  .u-fs-r-16 {
+    font-size: var(--px-20);
+  }
+  .u-fs-r-20 {
+    font-size: var(--px-22);
+  }
+  .u-fs-lg-12 {
+    font-size: var(--px-12);
+  }
+  .u-fs-lg-16 {
+    font-size: var(--px-16);
+  }
+  .u-fs-lg-18 {
+    font-size: var(--px-18);
+  }
+  .u-fs-lg-20 {
+    font-size: var(--px-20);
+  }
+  .u-fs-r-24 {
+    font-size: var(--px-28);
+  }
+}
+
+/* xl classes [≥ 1280px] */
+@media screen and (min-width: 1280px) {
+}
